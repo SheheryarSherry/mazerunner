@@ -9,7 +9,7 @@ var Grid = (function () {
         this.end = new GridPosition(this.width - 2, this.height - 2);
         this.colorsCodes = [
             "#000000",
-            "#ffffff",
+            "#808080",
             "#115577",
             "#ffff00",
             "#ff0000",

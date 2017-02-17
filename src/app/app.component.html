@@ -20,55 +20,15 @@
       </ul>
     </div>
   </div>
+ <div class="container">
+   <div class="well well-lg" style="background-color: darkgoldenrod">
+<app-inputform>
 
-  <div id="content-blocker"></div>
+</app-inputform>
+</div>
+ </div>
+<div id="content">
+  <app-maze>
 
-  <div id="content">
-    <div id="controls">
-      <div class="data">
-        <button id="set-start-position" disabled="disabled">Set Start Point</button>
-      </div>
-
-      <div class="data">
-        <button id="set-end-position" disabled="disabled">Set End Point</button>
-      </div>
-
-      <div class="data">
-        <label> Depth First Search
-          <input class="radio-button" type="radio" name="method" value="dfs" checked="checked" />
-        </label>
-      </div>
-
-      <div class="data">
-        <label> Breadth First Search
-          <input class="radio-button" type="radio" name="method" value="bfs" />
-        </label>
-      </div>
-
-      <div class="data">
-        <button id="start-search" disabled="disabled">Start Search</button>
-      </div>
-
-       <div class="data">
-        <a href="https://github.com/fabio1079/maze-runner" target="blank">Project Github</a>
-      </div>
-
-      <div class="data">
-        <a href="#" id="btn-help">Help</a>
-      </div>
-    </div>
-
-    <div id="stage">
-      <canvas width="1000px" height="600px"></canvas>
-    </div>
-  </div>
-
-  <script type="text/javascript" src="js/grid-position.js"></script>
-  <script type="text/javascript" src="js/node-position.js"></script>
-  <script type="text/javascript" src="js/linked-list.js"></script>
-  <script type="text/javascript" src="js/stack.js"></script>
-  <script type="text/javascript" src="js/queue.js"></script>
-  <script type="text/javascript" src="js/grid.js"></script>
-  <script type="text/javascript" src="js/depth-first-search.js"></script>
-  <script type="text/javascript" src="js/breadth-first-search.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+     </app-maze>
+</div>

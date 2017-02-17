@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { InputformComponent } from './inputform/inputform.component';
+import { MazeComponent } from './maze/maze.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputformComponent,
+    MazeComponent
   ],
   imports: [
     BrowserModule,
